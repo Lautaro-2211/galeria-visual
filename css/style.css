@@ -36,7 +36,7 @@ footer a {
 }
 
 main {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px 20px;
 }
@@ -101,8 +101,8 @@ main {
 }
 
 .galeria-fotos img {
-  width: 280px;
-  height: 200px;
+  width: 450px;
+  height: 320px;
   object-fit: contain;
   background-color: #e8e2d4;
   border-radius: 8px;
