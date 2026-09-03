@@ -3,23 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Mi Viaje</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <h1>Mi Viaje</h1>
-  <h2>Lautaro Peduto</h2>
+  <header>
+    <h1>Mi Viaje</h1>
+    <p>Lautaro Peduto</p>
+  </header>
 
-  <p>
-    Un recorrido fotográfico por España, Italia y Ámsterdam,
-    capturando paisajes y ciudades visitadas durante mi viaje.
-  </p>
+  <main>
 
-  <img src="espana_1.jpeg" alt="Paisaje de España" width="500">
+    <section class="presentacion">
+      <p>
+        Un recorrido fotográfico por España, Italia y Ámsterdam,
+        capturando paisajes y ciudades visitadas durante mi viaje.
+      </p>
+      <img src="espana_1.jpeg" alt="Paisaje de España" class="imagen-principal">
+    </section>
 
-  <p>
-    Podés leer más sobre esta propuesta en la
-    <a href="README.md">documentación del proyecto</a>.
-  </p>
+    <section class="galeria">
+      <h2>Destinos</h2>
+
+      <div class="tarjeta">
+        <img src="espana_1.jpeg" alt="Visitando España con amigos">
+        <h3>España</h3>
+        <a href="espana.html">Ver más</a>
+      </div>
+
+      <div class="tarjeta">
+        <img src="italia_1.jpeg" alt="Visitando Italia con amigos">
+        <h3>Italia</h3>
+        <a href="italia.html">Ver más</a>
+      </div>
+
+      <div class="tarjeta">
+        <img src="amsterdam_1.jpeg" alt="Visitando Ámsterdam con amigos">
+        <h3>Ámsterdam</h3>
+        <a href="amsterdam.html">Ver más</a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mi Viaje — Lautaro Peduto — Actividad de Diseño y Desarrollo Web</p>
+    <p><a href="README.md">Documentación del proyecto</a></p>
+  </footer>
 
 </body>
 </html>
