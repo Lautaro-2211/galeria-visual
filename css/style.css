@@ -111,9 +111,6 @@ main {
 a {
   color: #1e3a5f;
 }
-.volver:hover {
-  text-decoration: underline;
-}
 nav {
   margin-top: 20px;
   display: flex;
