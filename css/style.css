@@ -112,13 +112,12 @@ a {
   color: #1e3a5f;
 }
 nav {
-  margin-top: 20px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
-
 .nav-link {
   color: #ffffff;
   text-decoration: none;
