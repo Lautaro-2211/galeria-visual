@@ -111,14 +111,6 @@ main {
 a {
   color: #1e3a5f;
 }
-
-.volver {
-  display: inline-block;
-  margin-top: 30px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .volver:hover {
   text-decoration: underline;
 }
